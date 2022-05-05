@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="placeholder">
+        <div className="top">
           <div className="location">
             <h1>Charlotte</h1>
           </div>
@@ -19,7 +19,7 @@ function App() {
             <h3>Sunny</h3>
           </div>
         </div>
-        <div className="placeholder2">
+        <div className="bottom">
           <div className="feelsLike">
             <p>85°F</p>
           </div>
