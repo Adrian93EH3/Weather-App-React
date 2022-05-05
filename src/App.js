@@ -26,6 +26,9 @@ function App() {
           <div className="humidity">
             <p>60%</p>
           </div>
+          <div className="windSpeed">
+            <p>8 MPH</p>
+          </div>
         </div>
       </div>
     </div>
