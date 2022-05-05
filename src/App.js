@@ -23,6 +23,9 @@ function App() {
           <div className="feelsLike">
             <p>85°F</p>
           </div>
+          <div className="humidity">
+            <p>60%</p>
+          </div>
         </div>
       </div>
     </div>
