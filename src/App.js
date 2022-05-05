@@ -10,7 +10,10 @@ function App() {
       <div className="container">
         <div className="placeholder">
           <div className="location">
-            
+            <p></p>
+          </div>
+          <div className="temperature">
+            <h2>82° F</h2>
           </div>
         </div>
         <div className="placeholder2"></div>
