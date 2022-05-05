@@ -14,3 +14,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+.App::before{
+  content: '';
+  background: url('./images/darkModeWeather.jpg') no-repeat center center/cover;
+  position: absolute; /* Since we're on top of a relative element since this is before */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Put it behind the rest of the app's interface */
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 255);
+}
+
+.container {
+  max-width: 700px; /* Building for Mobile first, then adding media queries for Desktop/Tablet */
+  height: 700px; /* Building for Mobile first, then adding media queries for Desktop/Tablet */
+  margin: auto;
+  padding: 0 11px;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
