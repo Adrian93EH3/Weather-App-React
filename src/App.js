@@ -15,6 +15,9 @@ function App() {
           <div className="temperature">
             <h2>82° F</h2>
           </div>
+          <div className="weatherDescription">
+            <h3>Sunny</h3>
+          </div>
         </div>
         <div className="placeholder2"></div>
       </div>
