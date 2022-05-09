@@ -41,6 +41,25 @@ h2 {
   color: rgba(255, 255, 255, 255);
 }
 
+.App .search {
+  text-align: center;
+  padding: 12px;
+}
+
+.App input {
+  padding: 10px 15px;
+  font-size: 17px;
+  border-radius: 20px;
+  border: 1.2px solid whitesmoke;
+  width: 15%;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, .1);
+}
+
+.App input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .container {
   max-width: 700px; /* Building for Mobile first, then adding media queries for Desktop/Tablet */
   height: 700px; /* Building for Mobile first, then adding media queries for Desktop/Tablet */
