@@ -33,7 +33,7 @@ function App() {
       <div className="container">
         <div className="top">
           <div className="location">
-            <h1>Charlotte</h1>
+            <h1>{data.name}</h1>
           </div>
           <div className="temperature">
             <h2>82°F</h2>
