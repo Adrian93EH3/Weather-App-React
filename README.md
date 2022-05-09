@@ -3,3 +3,6 @@ This is an app that utilizes OpenWeatherMap's free API. There's an input field i
 
 ## Technologies Used
 React, Axios, CSS, and JSX
+
+## Deployed Site
+https://shielded-shore-16226.herokuapp.com/
