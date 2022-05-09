@@ -36,7 +36,7 @@ function App() {
             <h1>{data.name}</h1>
           </div>
           <div className="temperature">
-            {data.main ? <h2>{data.main.temp}°F</h2> : null} {/* Check for the value of main before being able to check for the value of temp */}
+            {data.main ? <h2>{data.main.temp.toFixed()}°F</h2> : null} {/* Check for the value of main before being able to check for the value of temp */}
           </div>
           <div className="weatherDescription">
           {data.weather ? <h3>{data.weather[0].main}</h3> : null} {/* Check for the value of weather before being able to check for the value of main */}
@@ -47,7 +47,7 @@ function App() {
       {data.name != undefined && 
         <div className="bottom">
           <div className="feelsLike">
-            {data.main ? <p className="bold">{data.main.feels_like}°F</p> : null}
+            {data.main ? <p className="bold">{data.main.feels_like.toFixed()}°F</p> : null}
             <p>Feels Like</p>
           </div>
           <div className="humidity">
@@ -55,7 +55,7 @@ function App() {
             <p>Humidity</p>
           </div>
           <div className="windSpeed">
-          {data.wind ? <p className="bold">{data.wind.speed} MPH</p> : null}
+          {data.wind ? <p className="bold">{data.wind.speed.toFixed()} MPH</p> : null}
             <p>Wind Speed</p>
           </div>
         </div>
