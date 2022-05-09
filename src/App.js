@@ -15,6 +15,7 @@ function App() {
       setData(response.data);
       console.log(response.data);
     })
+    setLocation(""); /* Sets the input field back to an empty string thus displaying the placeholder after every successful API call for the city's weather. */
   }
 
  }
