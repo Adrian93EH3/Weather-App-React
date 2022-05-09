@@ -39,6 +39,7 @@ function App() {
             {data.main ? <h2>{data.main.temp}°F</h2> : null} {/* Check for the value of main before being able to check for the value of temp */}
           </div>
           <div className="weatherDescription">
+          {data.weather ? <h3>{data.weather[0].main}</h3> : null} {/* Check for the value of weather before being able to check for the value of main */}
           </div>
         </div>
         <div className="bottom">
