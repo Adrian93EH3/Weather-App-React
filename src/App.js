@@ -42,6 +42,9 @@ function App() {
           {data.weather ? <h3>{data.weather[0].main}</h3> : null} {/* Check for the value of weather before being able to check for the value of main */}
           </div>
         </div>
+
+      {/* Don't display any of this JSX unless the user inputted a city thus giving data.name a value */}
+      {data.name != undefined && 
         <div className="bottom">
           <div className="feelsLike">
             {data.main ? <p className="bold">{data.main.feels_like}°F</p> : null}
@@ -56,6 +59,8 @@ function App() {
             <p>Wind Speed</p>
           </div>
         </div>
+      }
+
       </div>
     </div>
   );
