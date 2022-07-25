@@ -44,7 +44,7 @@ function App() {
         </div>
 
       {/* Don't display any of this JSX unless the user inputted a city thus giving data.name a value */}
-      {data.name != undefined && 
+      {data.name !== undefined && 
         <div className="bottom">
           <div className="feelsLike">
             {data.main ? <p className="bold">{data.main.feels_like.toFixed()}°F</p> : null}
